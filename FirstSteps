@@ -1,0 +1,6 @@
+open a powershell terminal 
+Install Module Az
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+az login
+connect-AzAccount 
+select a perticular subcribtion on the azure account -> Select-AzSubscription -subscription fcbaa624-ed53-476c-bf2f-76d1609690df
