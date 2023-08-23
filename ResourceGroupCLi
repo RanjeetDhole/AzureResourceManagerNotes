@@ -5,4 +5,5 @@ Select-AzSubscription -subscription fcbaa624-ed53-476c-bf2f-76d1609690df  ......
 New-AzResourceGroup -Name "myRG" -Location "East US"  ......................................this is powershell command.
 
 az account set --subscription fcbaa624-ed53-476c-bf2f-76d1609690df   ........for selection for subcribtion
-
+az group create --location westus --name myRG                    ..........create a resource group 
+az deployment group create --template-file .\sql_server_database.json --resource-group myRG --parameters .\sql_server_database_parameters.json  ......deployment for resource for storage and sql-Server/Database...
