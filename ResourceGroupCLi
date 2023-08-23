@@ -1,5 +1,8 @@
 To create a Resource Group by azure cli 
 
 az login
-Select-AzSubscription -subscription fcbaa624-ed53-476c-bf2f-76d1609690df
-New-AzResourceGroup -Name "myRG" -Location "East US" 
+Select-AzSubscription -subscription fcbaa624-ed53-476c-bf2f-76d1609690df  ....................this is powershell command.
+New-AzResourceGroup -Name "myRG" -Location "East US"  ......................................this is powershell command.
+
+az account set --subscription fcbaa624-ed53-476c-bf2f-76d1609690df   ........for selection for subcribtion
+
